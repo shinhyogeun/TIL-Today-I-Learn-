@@ -1,0 +1,544 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1587749824E3AE230040A1E5 /* AnimatedBlurLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AAE8FCC5A8B93D85FE89C73789B01B /* AnimatedBlurLabel.swift */; };
+		2CFDFA1618C62CF354B99C08980BA813 /* AnimatedBlurLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19AAE8FCC5A8B93D85FE89C73789B01B /* AnimatedBlurLabel.swift */; };
+		47E36149827EEB2B8E0F75D443429537 /* Pods-Gradient_Background-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2DE99095449D29AFA1913DA8EF9CB1DF /* Pods-Gradient_Background-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		55119C42D9FAF1DE3AFF64351ECC660A /* Pods-Gradient_Background-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 887CCD316832F787D3120E4D9F1F817E /* Pods-Gradient_Background-dummy.m */; };
+		71366D3672D8E09CE556BC70E4574490 /* AnimatedBlurLabel-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A0EE80F39EF8B8CD6E1F46DFEAF915BC /* AnimatedBlurLabel-umbrella.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		AADF9FC27562AFE816CBF56C83CCF77F /* AnimatedBlurLabel-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE7562BDD6D50EBF5C88C93C2363235 /* AnimatedBlurLabel-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95AE5A0B2CFC8547185D4762AFC03EBC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 173FF1F692FFDE1B51ECF93E9D824A86;
+			remoteInfo = AnimatedBlurLabel;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		19AAE8FCC5A8B93D85FE89C73789B01B /* AnimatedBlurLabel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnimatedBlurLabel.swift; path = AnimatedBlurLabel/AnimatedBlurLabel.swift; sourceTree = "<group>"; };
+		1BE7562BDD6D50EBF5C88C93C2363235 /* AnimatedBlurLabel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AnimatedBlurLabel-dummy.m"; sourceTree = "<group>"; };
+		200803F478B98C51D92BF4A8B83A2875 /* Pods-Gradient_Background-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Gradient_Background-acknowledgements.plist"; sourceTree = "<group>"; };
+		2DE99095449D29AFA1913DA8EF9CB1DF /* Pods-Gradient_Background-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Gradient_Background-umbrella.h"; sourceTree = "<group>"; };
+		37DB0B9C5B436C8F5D02DC47782F1257 /* Pods-Gradient_Background.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gradient_Background.release.xcconfig"; sourceTree = "<group>"; };
+		67BBFB7447D6FF387FC8FF00A6183F8B /* libPods-Gradient_Background.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Gradient_Background.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6DEAEE654A219A3964A6AB158DD43942 /* AnimatedBlurLabel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedBlurLabel-prefix.pch"; sourceTree = "<group>"; };
+		7B00E75130362E2183782D22727DD116 /* libAnimatedBlurLabel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAnimatedBlurLabel.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		887CCD316832F787D3120E4D9F1F817E /* Pods-Gradient_Background-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Gradient_Background-dummy.m"; sourceTree = "<group>"; };
+		931AC6CBAA74C5FD5F728BEF8C806DF9 /* Pods-Gradient_Background-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Gradient_Background-acknowledgements.markdown"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0EE80F39EF8B8CD6E1F46DFEAF915BC /* AnimatedBlurLabel-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AnimatedBlurLabel-umbrella.h"; sourceTree = "<group>"; };
+		C004C6BA6570E8C67C90F22504B66753 /* AnimatedBlurLabel.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedBlurLabel.release.xcconfig; sourceTree = "<group>"; };
+		D67834A60545647BD7FFACCEE85163A5 /* AnimatedBlurLabel.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AnimatedBlurLabel.debug.xcconfig; sourceTree = "<group>"; };
+		E8968F2DAC9F7605891B58F4486D3277 /* Pods-Gradient_Background.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Gradient_Background.debug.xcconfig"; sourceTree = "<group>"; };
+		F4EC8B5E0B5FA159D1FE2EFDD985D5E9 /* AnimatedBlurLabel.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AnimatedBlurLabel.modulemap; sourceTree = "<group>"; };
+		FBA1296EBB6CE932636BC46D1ABB8AAD /* Pods-Gradient_Background.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Gradient_Background.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		27E63A716D569C01F7B9BE4F1F265253 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		37558A53FBA1076DD0705BE061E71D15 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32446851B1A7FCBDA4D42BF27AB9CEC4 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F4EC8B5E0B5FA159D1FE2EFDD985D5E9 /* AnimatedBlurLabel.modulemap */,
+				1BE7562BDD6D50EBF5C88C93C2363235 /* AnimatedBlurLabel-dummy.m */,
+				6DEAEE654A219A3964A6AB158DD43942 /* AnimatedBlurLabel-prefix.pch */,
+				A0EE80F39EF8B8CD6E1F46DFEAF915BC /* AnimatedBlurLabel-umbrella.h */,
+				D67834A60545647BD7FFACCEE85163A5 /* AnimatedBlurLabel.debug.xcconfig */,
+				C004C6BA6570E8C67C90F22504B66753 /* AnimatedBlurLabel.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/AnimatedBlurLabel";
+			sourceTree = "<group>";
+		};
+		3585A45EE7C5D94EF67B5DA5257E6E61 /* AnimatedBlurLabel */ = {
+			isa = PBXGroup;
+			children = (
+				19AAE8FCC5A8B93D85FE89C73789B01B /* AnimatedBlurLabel.swift */,
+				32446851B1A7FCBDA4D42BF27AB9CEC4 /* Support Files */,
+			);
+			path = AnimatedBlurLabel;
+			sourceTree = "<group>";
+		};
+		7F0197E440BDAACCB77C54B54A896BEC /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				842649A5A5278581781E91EAEF95824B /* Pods-Gradient_Background */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		823DE8D0B358417B5C16EA0BBB4173B8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B00E75130362E2183782D22727DD116 /* libAnimatedBlurLabel.a */,
+				67BBFB7447D6FF387FC8FF00A6183F8B /* libPods-Gradient_Background.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		83252B2DAF77E63E8D481FFC527754A5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3585A45EE7C5D94EF67B5DA5257E6E61 /* AnimatedBlurLabel */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		842649A5A5278581781E91EAEF95824B /* Pods-Gradient_Background */ = {
+			isa = PBXGroup;
+			children = (
+				FBA1296EBB6CE932636BC46D1ABB8AAD /* Pods-Gradient_Background.modulemap */,
+				931AC6CBAA74C5FD5F728BEF8C806DF9 /* Pods-Gradient_Background-acknowledgements.markdown */,
+				200803F478B98C51D92BF4A8B83A2875 /* Pods-Gradient_Background-acknowledgements.plist */,
+				887CCD316832F787D3120E4D9F1F817E /* Pods-Gradient_Background-dummy.m */,
+				2DE99095449D29AFA1913DA8EF9CB1DF /* Pods-Gradient_Background-umbrella.h */,
+				E8968F2DAC9F7605891B58F4486D3277 /* Pods-Gradient_Background.debug.xcconfig */,
+				37DB0B9C5B436C8F5D02DC47782F1257 /* Pods-Gradient_Background.release.xcconfig */,
+			);
+			name = "Pods-Gradient_Background";
+			path = "Target Support Files/Pods-Gradient_Background";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D89477F20FB1DE18A04690586D7808C4 /* Frameworks */,
+				83252B2DAF77E63E8D481FFC527754A5 /* Pods */,
+				823DE8D0B358417B5C16EA0BBB4173B8 /* Products */,
+				7F0197E440BDAACCB77C54B54A896BEC /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D89477F20FB1DE18A04690586D7808C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		51F180F32765E1B95C35839F5ACE18AF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				71366D3672D8E09CE556BC70E4574490 /* AnimatedBlurLabel-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E50AFDF2A08390D4D7C93AAECB30B180 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47E36149827EEB2B8E0F75D443429537 /* Pods-Gradient_Background-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		173FF1F692FFDE1B51ECF93E9D824A86 /* AnimatedBlurLabel */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8A3BA91BDC936F7B32978406D07D67B /* Build configuration list for PBXNativeTarget "AnimatedBlurLabel" */;
+			buildPhases = (
+				51F180F32765E1B95C35839F5ACE18AF /* Headers */,
+				AC1990445C1B68A84D6A59FAFACD7993 /* Sources */,
+				37558A53FBA1076DD0705BE061E71D15 /* Frameworks */,
+				6EBCB002B2FF5EFE61A800FE55ACBF20 /* Copy generated compatibility header */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimatedBlurLabel;
+			productName = AnimatedBlurLabel;
+			productReference = 7B00E75130362E2183782D22727DD116 /* libAnimatedBlurLabel.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		9E383B33B745537DBC2C9B983389DE80 /* Pods-Gradient_Background */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 93B5BD451B66538A33550B0E5F7D0004 /* Build configuration list for PBXNativeTarget "Pods-Gradient_Background" */;
+			buildPhases = (
+				E50AFDF2A08390D4D7C93AAECB30B180 /* Headers */,
+				5C7B5500D604F75720FC80571854D62E /* Sources */,
+				27E63A716D569C01F7B9BE4F1F265253 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5B7112939F15EC91D88F1DA765AB81CE /* PBXTargetDependency */,
+			);
+			name = "Pods-Gradient_Background";
+			productName = "Pods-Gradient_Background";
+			productReference = 67BBFB7447D6FF387FC8FF00A6183F8B /* libPods-Gradient_Background.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 823DE8D0B358417B5C16EA0BBB4173B8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				173FF1F692FFDE1B51ECF93E9D824A86 /* AnimatedBlurLabel */,
+				9E383B33B745537DBC2C9B983389DE80 /* Pods-Gradient_Background */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6EBCB002B2FF5EFE61A800FE55ACBF20 /* Copy generated compatibility header */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h",
+				"${PODS_ROOT}/Headers/Public/AnimatedBlurLabel/AnimatedBlurLabel.modulemap",
+				"${PODS_ROOT}/Headers/Public/AnimatedBlurLabel/AnimatedBlurLabel-umbrella.h",
+			);
+			name = "Copy generated compatibility header";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap",
+				"${BUILT_PRODUCTS_DIR}/AnimatedBlurLabel-umbrella.h",
+				"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "COMPATIBILITY_HEADER_PATH=\"${BUILT_PRODUCTS_DIR}/Swift Compatibility Header/${PRODUCT_MODULE_NAME}-Swift.h\"\nMODULE_MAP_PATH=\"${BUILT_PRODUCTS_DIR}/${PRODUCT_MODULE_NAME}.modulemap\"\n\nditto \"${DERIVED_SOURCES_DIR}/${PRODUCT_MODULE_NAME}-Swift.h\" \"${COMPATIBILITY_HEADER_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/AnimatedBlurLabel/AnimatedBlurLabel.modulemap\" \"${MODULE_MAP_PATH}\"\nditto \"${PODS_ROOT}/Headers/Public/AnimatedBlurLabel/AnimatedBlurLabel-umbrella.h\" \"${BUILT_PRODUCTS_DIR}\"\nprintf \"\\n\\nmodule ${PRODUCT_MODULE_NAME}.Swift {\\n  header \\\"${COMPATIBILITY_HEADER_PATH}\\\"\\n  requires objc\\n}\\n\" >> \"${MODULE_MAP_PATH}\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C7B5500D604F75720FC80571854D62E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1587749824E3AE230040A1E5 /* AnimatedBlurLabel.swift in Sources */,
+				55119C42D9FAF1DE3AFF64351ECC660A /* Pods-Gradient_Background-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC1990445C1B68A84D6A59FAFACD7993 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AADF9FC27562AFE816CBF56C83CCF77F /* AnimatedBlurLabel-dummy.m in Sources */,
+				2CFDFA1618C62CF354B99C08980BA813 /* AnimatedBlurLabel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5B7112939F15EC91D88F1DA765AB81CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AnimatedBlurLabel;
+			target = 173FF1F692FFDE1B51ECF93E9D824A86 /* AnimatedBlurLabel */;
+			targetProxy = 95AE5A0B2CFC8547185D4762AFC03EBC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D8357D2711AC41ED4DA1BA750640A6F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D67834A60545647BD7FFACCEE85163A5 /* AnimatedBlurLabel.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedBlurLabel/AnimatedBlurLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/AnimatedBlurLabel/AnimatedBlurLabel.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AnimatedBlurLabel;
+				PRODUCT_NAME = AnimatedBlurLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5599C5AD081CA6C83D0EFE466082B87E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C004C6BA6570E8C67C90F22504B66753 /* AnimatedBlurLabel.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/AnimatedBlurLabel/AnimatedBlurLabel-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MODULEMAP_FILE = Headers/Public/AnimatedBlurLabel/AnimatedBlurLabel.modulemap;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = AnimatedBlurLabel;
+				PRODUCT_NAME = AnimatedBlurLabel;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7A96EDBAF8BECC7D2F880D4CAB273B2F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37DB0B9C5B436C8F5D02DC47782F1257 /* Pods-Gradient_Background.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gradient_Background/Pods-Gradient_Background.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84E95AA692B92EA46ACBA13AD59AE27B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8968F2DAC9F7605891B58F4486D3277 /* Pods-Gradient_Background.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Gradient_Background/Pods-Gradient_Background.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F17DC3A99F99FBAD606CE6963886315 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		916E0404255105F480DC4950B7625F7A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				916E0404255105F480DC4950B7625F7A /* Debug */,
+				8F17DC3A99F99FBAD606CE6963886315 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		93B5BD451B66538A33550B0E5F7D0004 /* Build configuration list for PBXNativeTarget "Pods-Gradient_Background" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84E95AA692B92EA46ACBA13AD59AE27B /* Debug */,
+				7A96EDBAF8BECC7D2F880D4CAB273B2F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8A3BA91BDC936F7B32978406D07D67B /* Build configuration list for PBXNativeTarget "AnimatedBlurLabel" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D8357D2711AC41ED4DA1BA750640A6F /* Debug */,
+				5599C5AD081CA6C83D0EFE466082B87E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

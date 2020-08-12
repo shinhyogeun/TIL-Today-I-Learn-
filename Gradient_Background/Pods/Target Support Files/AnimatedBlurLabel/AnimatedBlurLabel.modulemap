@@ -1,0 +1,6 @@
+module AnimatedBlurLabel {
+  umbrella header "AnimatedBlurLabel-umbrella.h"
+
+  export *
+  module * { export * }
+}

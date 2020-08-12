@@ -1,0 +1,6 @@
+module Pods_Gradient_Background {
+  umbrella header "Pods-Gradient_Background-umbrella.h"
+
+  export *
+  module * { export * }
+}
