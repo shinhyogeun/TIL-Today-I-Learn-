@@ -42,8 +42,7 @@ open class AnimatedBlurLabel : UILabel {
     
     - parameter blurred:    Pass 'true' for blurring the text, 'false' false for unblurring.
     - parameter animated:   Pass 'true' for an animated blurring.
-    - parameter completion: The completion handler that is called when the blurring/unblurring
-                            animation has finished.
+    - parameter completion: The completion handler that is called when the blurring/unblurring animation has finished.
     */
     open func setBlurred(_ blurred: Bool, animated: Bool, completion: ((_ finished : Bool) -> Void)?) {
         if animated {
@@ -98,25 +97,31 @@ open class AnimatedBlurLabel : UILabel {
         instance.setValue(NSValue(cgAffineTransform: transform), forKey: "inputTransform")
         return instance
     }()
+    
     fileprivate lazy var blurFilter : CIFilter = {
         return CIFilter(name: "CIGaussianBlur")!
     }()
+    
     fileprivate lazy var colorFilter : CIFilter = {
         let instance = CIFilter(name: "CIConstantColorGenerator")!
         instance.setValue(self.blendColor, forKey: kCIInputColorKey)
         return instance
     }()
+    
     fileprivate lazy var blendFilter : CIFilter = {
         return CIFilter(name: "CISourceAtopCompositing")!
     }()
+    
     fileprivate lazy var blendColor : CIColor = {
         return CIColor(color: self.backgroundColor ?? self.superview?.backgroundColor ?? .white)
     }()
+    
     fileprivate lazy var inputBackgroundImage : CIImage = {
         return self.colorFilter.outputImage!
     }()
     
     fileprivate var startTime : CFTimeInterval?
+    
     fileprivate var progress : TimeInterval = 0.0
     
     
@@ -415,6 +420,10 @@ open class AnimatedBlurLabel : UILabel {
     }
     
     fileprivate func canRun() -> Bool {
+        print(blurredImagesReady)
+        print(completionParameter)
+        print(animatedParameter)
+        print(blurredParameter)
         return blurredImagesReady && (completionParameter == nil || (completionParameter != nil && animatedParameter != nil && blurredParameter != nil))
     }
     

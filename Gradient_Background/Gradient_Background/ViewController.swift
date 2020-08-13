@@ -9,14 +9,17 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBOutlet weak var realquik: UILabel!
+
+
+
+    @IBOutlet weak var testLabel2: AnimatedBlurLabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        (realquik as! AnimatedBlurLabel).setBlurred(true, animated: true) { (Bool) in
-            print("Hello World")
+        testLabel2.setBlurred(true, animated: false) { [weak self] finished in
+        print("sd")
         }
-        (realquik as! AnimatedBlurLabel)
+        
     }
 
 }
