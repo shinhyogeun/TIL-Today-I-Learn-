@@ -9,18 +9,27 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var Image: UIImageView!
 
-
-
-    @IBOutlet weak var testLabel2: AnimatedBlurLabel!
+    @IBOutlet weak var upperView: UIView!
+    @IBOutlet weak var secondView: UIView!
+    @IBOutlet weak var Label1: UILabel!
+    @IBOutlet weak var Label2: UILabel!
+    @IBOutlet weak var Label3: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        testLabel2.setBlurred(true, animated: false) { [weak self] finished in
-        print("sd")
-        }
         
+    }
+    
+    override func viewDidLayoutSubviews() {
+        let blur = UIBlurEffect(style: .dark)
+        let blurView = CustomIntensityVisualEffectView(effect: blur, intensity: 0.2)
+        
+        blurView.frame = self.view.bounds
+        upperView.addSubview(blurView)
+        upperView.sendSubviewToBack(blurView)
     }
 
 }
-

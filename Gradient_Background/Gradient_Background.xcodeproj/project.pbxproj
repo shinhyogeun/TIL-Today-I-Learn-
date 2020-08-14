@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		151D954024E68EAD0042EEC0 /* CustomIntensityVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 151D953F24E68EAD0042EEC0 /* CustomIntensityVisualEffectView.swift */; };
 		1544F08E24E52DD500185A34 /* UIKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1544F08D24E52DD500185A34 /* UIKitExtensions.swift */; };
 		1587749E24E3AFC60040A1E5 /* AnimatedBlurLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1587749D24E3AFC60040A1E5 /* AnimatedBlurLabel.swift */; };
 		15A5C82D24DD22BE000B6408 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15A5C82C24DD22BE000B6408 /* AppDelegate.swift */; };
@@ -19,8 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		151D953F24E68EAD0042EEC0 /* CustomIntensityVisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomIntensityVisualEffectView.swift; sourceTree = "<group>"; };
 		1544F08D24E52DD500185A34 /* UIKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIKitExtensions.swift; sourceTree = "<group>"; };
-		1587749A24E3AE870040A1E5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		1587749D24E3AFC60040A1E5 /* AnimatedBlurLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AnimatedBlurLabel.swift; path = ../Pods/AnimatedBlurLabel/AnimatedBlurLabel/AnimatedBlurLabel.swift; sourceTree = "<group>"; };
 		15A5C82924DD22BE000B6408 /* Gradient_Background.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gradient_Background.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A5C82C24DD22BE000B6408 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -73,6 +74,7 @@
 				15A5C83024DD22BE000B6408 /* ViewController.swift */,
 				1587749D24E3AFC60040A1E5 /* AnimatedBlurLabel.swift */,
 				1544F08D24E52DD500185A34 /* UIKitExtensions.swift */,
+				151D953F24E68EAD0042EEC0 /* CustomIntensityVisualEffectView.swift */,
 				15A5C83224DD22BE000B6408 /* Main.storyboard */,
 				15A5C83524DD22C0000B6408 /* Assets.xcassets */,
 				15A5C83724DD22C0000B6408 /* LaunchScreen.storyboard */,
@@ -196,6 +198,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				15A5C83124DD22BE000B6408 /* ViewController.swift in Sources */,
+				151D954024E68EAD0042EEC0 /* CustomIntensityVisualEffectView.swift in Sources */,
 				15A5C82D24DD22BE000B6408 /* AppDelegate.swift in Sources */,
 				1587749E24E3AFC60040A1E5 /* AnimatedBlurLabel.swift in Sources */,
 				15A5C82F24DD22BE000B6408 /* SceneDelegate.swift in Sources */,
@@ -210,7 +213,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				15A5C83324DD22BE000B6408 /* Base */,
-				1587749A24E3AE870040A1E5 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";

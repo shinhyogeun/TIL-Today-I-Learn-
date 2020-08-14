@@ -27,10 +27,10 @@ import UIKit
 open class AnimatedBlurLabel : UILabel {
     
     /// The duration of the blurring/unblurring animation in seconds
-    open var animationDuration : TimeInterval = 1.0
+    open var animationDuration : TimeInterval = 10.0
     
     /// The maximum blur radius that is applied to the text
-    open var blurRadius : CGFloat = 30.0
+    open var blurRadius : CGFloat = 10.0
     
     /// Returns true if blur has been applied to the text
     open var isBlurred : Bool {
@@ -42,7 +42,8 @@ open class AnimatedBlurLabel : UILabel {
     
     - parameter blurred:    Pass 'true' for blurring the text, 'false' false for unblurring.
     - parameter animated:   Pass 'true' for an animated blurring.
-    - parameter completion: The completion handler that is called when the blurring/unblurring animation has finished.
+    - parameter completion: The completion handler that is called when the blurring/unblurring
+                            animation has finished.
     */
     open func setBlurred(_ blurred: Bool, animated: Bool, completion: ((_ finished : Bool) -> Void)?) {
         if animated {
@@ -83,7 +84,6 @@ open class AnimatedBlurLabel : UILabel {
     fileprivate var textToRender: String?
     
     fileprivate var context : CIContext = {
-//        openGLES2.x버전으로 하겠습니다.
         let eaglContext = EAGLContext(api: .openGLES2)
         let instance = CIContext(eaglContext: eaglContext!, options: [ CIContextOption.workingColorSpace : NSNull() ])
         return instance
@@ -97,31 +97,25 @@ open class AnimatedBlurLabel : UILabel {
         instance.setValue(NSValue(cgAffineTransform: transform), forKey: "inputTransform")
         return instance
     }()
-    
     fileprivate lazy var blurFilter : CIFilter = {
         return CIFilter(name: "CIGaussianBlur")!
     }()
-    
     fileprivate lazy var colorFilter : CIFilter = {
         let instance = CIFilter(name: "CIConstantColorGenerator")!
         instance.setValue(self.blendColor, forKey: kCIInputColorKey)
         return instance
     }()
-    
     fileprivate lazy var blendFilter : CIFilter = {
         return CIFilter(name: "CISourceAtopCompositing")!
     }()
-    
     fileprivate lazy var blendColor : CIColor = {
-        return CIColor(color: self.backgroundColor ?? self.superview?.backgroundColor ?? .white)
+        return CIColor(color: self.backgroundColor ?? .clear)
     }()
-    
     fileprivate lazy var inputBackgroundImage : CIImage = {
         return self.colorFilter.outputImage!
     }()
     
     fileprivate var startTime : CFTimeInterval?
-    
     fileprivate var progress : TimeInterval = 0.0
     
     
@@ -175,7 +169,7 @@ open class AnimatedBlurLabel : UILabel {
     
 
     // MARK: Setup
-//    각각의 요소들에게 전부 animation을 인식하게 준비시긴다.
+    
     override open func awakeFromNib() {
         super.awakeFromNib()
         
@@ -186,7 +180,7 @@ open class AnimatedBlurLabel : UILabel {
         super.textAlignment = .center
     }
 
-// layer 1장 깔았다.
+    
     fileprivate func setupBlurLayer() -> CALayer {
         let layer = CALayer()
         layer.contentsGravity = CALayerContentsGravity.center
@@ -196,9 +190,8 @@ open class AnimatedBlurLabel : UILabel {
         return layer
     }
     
-    
     // MARK: Animation
-//동시에 바뀌게 해준다(함수들이 실행되면 그 RunLoop와 동시에 target과 selector를 실행시킬 준비 (일단은 멈춰놓음)
+    
     fileprivate lazy var displayLink : CADisplayLink? = {
         var instance = CADisplayLink(target: self, selector: #selector(AnimatedBlurLabel.animateProgress(_:)))
         instance.isPaused = true
@@ -206,7 +199,6 @@ open class AnimatedBlurLabel : UILabel {
         return instance
     }()
     
-//    시작을 하면 진도 0에 시작한 시간을 저장함.
     fileprivate func startDisplayLink() {
         if (displayLink?.isPaused == true) {
             progress = 0.0
@@ -214,12 +206,10 @@ open class AnimatedBlurLabel : UILabel {
             displayLink?.isPaused = false
         }
     }
-//    멈춘다.
+    
     fileprivate func stopDisplayLink() {
         displayLink?.isPaused = true
     }
-    
-    
     
     @objc fileprivate func animateProgress(_ displayLink : CADisplayLink) {
         if (progress > animationDuration) {
@@ -386,8 +376,8 @@ open class AnimatedBlurLabel : UILabel {
     }
     
     // MARK: Helper Methods
-    // NSAttributedString.Key : Any       vs       String : AnyObject
-    fileprivate func defaultAttributes() -> [NSAttributedString.Key : Any]? {
+    
+    fileprivate func defaultAttributes() -> [NSAttributedString.Key : Any] {
         let paragraph = NSMutableParagraphStyle()
         paragraph.lineBreakMode = lineBreakMode
         paragraph.alignment = textAlignment
@@ -396,6 +386,7 @@ open class AnimatedBlurLabel : UILabel {
                 NSAttributedString.Key.foregroundColor : textColor,
                 NSAttributedString.Key.ligature : NSNumber(value: 0 as Int),
                 NSAttributedString.Key.kern : NSNumber(value: 0.0 as Float)]
+
     }
     
     fileprivate func hasAlignment(_ alignment: NSTextAlignment) -> Bool {
@@ -420,10 +411,6 @@ open class AnimatedBlurLabel : UILabel {
     }
     
     fileprivate func canRun() -> Bool {
-        print(blurredImagesReady)
-        print(completionParameter)
-        print(animatedParameter)
-        print(blurredParameter)
         return blurredImagesReady && (completionParameter == nil || (completionParameter != nil && animatedParameter != nil && blurredParameter != nil))
     }
     
