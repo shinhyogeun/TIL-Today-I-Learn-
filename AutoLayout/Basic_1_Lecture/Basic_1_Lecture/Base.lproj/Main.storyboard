@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina3_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,59 +12,37 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Basic_1_Lecture" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qT5-HV-FLI">
-                                <rect key="frame" x="20" y="20" width="200" height="200"/>
-                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="200" id="0ip-wS-UzM"/>
-                                    <constraint firstAttribute="height" constant="200" id="YMY-46-jIb"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DOF-UX-YIu">
-                                <rect key="frame" x="20" y="20" width="100" height="100"/>
-                                <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="100" id="72Z-fP-ay7"/>
-                                    <constraint firstAttribute="width" constant="100" id="eMc-zF-1sU"/>
-                                </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ncG-ch-cIN">
-                                <rect key="frame" x="45" y="45" width="50" height="50"/>
-                                <color key="backgroundColor" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="Asu-Tc-nbr"/>
-                                    <constraint firstAttribute="width" constant="50" id="mow-NI-5gp"/>
-                                </constraints>
-                            </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4D-iw-Mtx">
-                                <rect key="frame" x="145" y="303" width="99" height="43"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WeatherBG_Sun" translatesAutoresizingMaskIntoConstraints="NO" id="HfO-8P-CL2">
+                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8c-D2-MqA">
+                                <rect key="frame" x="135" y="174.5" width="50" height="35"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="DOF-UX-YIu" firstAttribute="leading" secondItem="qT5-HV-FLI" secondAttribute="leading" id="8Gj-Dj-CK0"/>
-                            <constraint firstItem="ncG-ch-cIN" firstAttribute="centerX" secondItem="DOF-UX-YIu" secondAttribute="centerX" id="XxC-aS-94f"/>
-                            <constraint firstItem="qT5-HV-FLI" firstAttribute="leading" secondItem="unT-fZ-gJW" secondAttribute="leading" constant="20" id="ZbW-63-aZR"/>
-                            <constraint firstItem="DOF-UX-YIu" firstAttribute="top" secondItem="qT5-HV-FLI" secondAttribute="top" id="hxk-62-aad"/>
-                            <constraint firstItem="ncG-ch-cIN" firstAttribute="centerY" secondItem="DOF-UX-YIu" secondAttribute="centerY" id="pHx-G9-7Lk"/>
-                            <constraint firstItem="qT5-HV-FLI" firstAttribute="top" secondItem="unT-fZ-gJW" secondAttribute="top" constant="20" id="x6y-LX-Yhl"/>
+                            <constraint firstAttribute="trailing" secondItem="HfO-8P-CL2" secondAttribute="trailing" id="6Vq-pJ-qmV"/>
+                            <constraint firstItem="R8c-D2-MqA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.8" id="KHy-UW-49V"/>
+                            <constraint firstItem="HfO-8P-CL2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Whh-MX-uGg"/>
+                            <constraint firstAttribute="bottom" secondItem="HfO-8P-CL2" secondAttribute="bottom" id="fdO-2F-6vr"/>
+                            <constraint firstItem="HfO-8P-CL2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="goe-CR-jCh"/>
+                            <constraint firstItem="R8c-D2-MqA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sgM-g9-ZWA"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="unT-fZ-gJW"/>
                     </view>
-                    <connections>
-                        <outlet property="helloLabel" destination="q4D-iw-Mtx" id="CnZ-hn-6kE"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.40000000000001" y="137.18140929535232"/>
+            <point key="canvasLocation" x="138.40000000000001" y="136.69950738916256"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="WeatherBG_Sun" width="750" height="1334"/>
+    </resources>
 </document>

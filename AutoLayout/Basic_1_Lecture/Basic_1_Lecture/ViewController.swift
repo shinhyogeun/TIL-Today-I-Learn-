@@ -10,15 +10,10 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var helloLabel: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        let helloLabel2 = UILabel()
-        helloLabel.text = "Hello world"
-        helloLabel.backgroundColor = .red
-        helloLabel.textColor = .cyan
     }
 
 

@@ -11,7 +11,6 @@ import UIKit
 class ViewController: UIViewController {
     
     @IBOutlet weak var Image: UIImageView!
-
     @IBOutlet weak var upperView: UIView!
     @IBOutlet weak var secondView: UIView!
     @IBOutlet weak var Label1: UILabel!
@@ -25,9 +24,15 @@ class ViewController: UIViewController {
     
     override func viewDidLayoutSubviews() {
         let blur = UIBlurEffect(style: .dark)
-        let blurView = CustomIntensityVisualEffectView(effect: blur, intensity: 0.2)
+        let underBlur = UIBlurEffect(style: .light)
+        
+        let blurView = CustomIntensityVisualEffectView(effect: blur, intensity: 0.05)
+        let underBlurView = CustomIntensityVisualEffectView(effect: underBlur, intensity: 1)
         
         blurView.frame = self.view.bounds
+        underBlurView.frame = self.view.bounds
+        Image.addSubview(underBlurView)
+        Image.sendSubviewToBack(underBlurView)
         upperView.addSubview(blurView)
         upperView.sendSubviewToBack(blurView)
     }
