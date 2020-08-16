@@ -19,10 +19,6 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-    }
-    
-    override func viewDidLayoutSubviews() {
         let blur = UIBlurEffect(style: .dark)
         let underBlur = UIBlurEffect(style: .light)
         
@@ -35,6 +31,12 @@ class ViewController: UIViewController {
         Image.sendSubviewToBack(underBlurView)
         upperView.addSubview(blurView)
         upperView.sendSubviewToBack(blurView)
+        
+        
     }
+    
+//    override func viewDidLayoutSubviews() {
+//
+//    }
 
 }
