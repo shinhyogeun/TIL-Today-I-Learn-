@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		153C351424EAB15F0075FB95 /* WeatherBG_Moon.png in Resources */ = {isa = PBXBuildFile; fileRef = 153C351324EAB15F0075FB95 /* WeatherBG_Moon.png */; };
+		15BFBA7224EBAFE700F7FE10 /* home50x50@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BFBA6F24EBAFE700F7FE10 /* home50x50@3x.png */; };
+		15BFBA7324EBAFE700F7FE10 /* home300.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BFBA7024EBAFE700F7FE10 /* home300.png */; };
+		15BFBA7424EBAFE700F7FE10 /* home50x50@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 15BFBA7124EBAFE700F7FE10 /* home50x50@2x.png */; };
 		15CB8A9824CC87F4009FC26F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB8A9724CC87F4009FC26F /* AppDelegate.swift */; };
 		15CB8A9A24CC87F4009FC26F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB8A9924CC87F4009FC26F /* SceneDelegate.swift */; };
 		15CB8A9C24CC87F4009FC26F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15CB8A9B24CC87F4009FC26F /* ViewController.swift */; };
@@ -16,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		153C351324EAB15F0075FB95 /* WeatherBG_Moon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = WeatherBG_Moon.png; path = "../../Lecture Image Resource/WeatherBG_Moon.png"; sourceTree = "<group>"; };
+		15BFBA6F24EBAFE700F7FE10 /* home50x50@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home50x50@3x.png"; path = "../../Lecture Image Resource/home50x50@3x.png"; sourceTree = "<group>"; };
+		15BFBA7024EBAFE700F7FE10 /* home300.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = home300.png; path = "../../Lecture Image Resource/home300.png"; sourceTree = "<group>"; };
+		15BFBA7124EBAFE700F7FE10 /* home50x50@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "home50x50@2x.png"; path = "../../Lecture Image Resource/home50x50@2x.png"; sourceTree = "<group>"; };
 		15CB8A9424CC87F4009FC26F /* Basic_1_Lecture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Basic_1_Lecture.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15CB8A9724CC87F4009FC26F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		15CB8A9924CC87F4009FC26F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -61,7 +69,11 @@
 				15CB8A9B24CC87F4009FC26F /* ViewController.swift */,
 				15CB8A9D24CC87F4009FC26F /* Main.storyboard */,
 				15CB8AA024CC87F9009FC26F /* Assets.xcassets */,
+				15BFBA7124EBAFE700F7FE10 /* home50x50@2x.png */,
+				15BFBA6F24EBAFE700F7FE10 /* home50x50@3x.png */,
+				15BFBA7024EBAFE700F7FE10 /* home300.png */,
 				15CB8AA224CC87F9009FC26F /* LaunchScreen.storyboard */,
+				153C351324EAB15F0075FB95 /* WeatherBG_Moon.png */,
 				15CB8AA524CC87F9009FC26F /* Info.plist */,
 			);
 			path = Basic_1_Lecture;
@@ -125,9 +137,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15BFBA7324EBAFE700F7FE10 /* home300.png in Resources */,
+				15BFBA7224EBAFE700F7FE10 /* home50x50@3x.png in Resources */,
 				15CB8AA424CC87F9009FC26F /* LaunchScreen.storyboard in Resources */,
 				15CB8AA124CC87F9009FC26F /* Assets.xcassets in Resources */,
+				153C351424EAB15F0075FB95 /* WeatherBG_Moon.png in Resources */,
 				15CB8A9F24CC87F4009FC26F /* Main.storyboard in Resources */,
+				15BFBA7424EBAFE700F7FE10 /* home50x50@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

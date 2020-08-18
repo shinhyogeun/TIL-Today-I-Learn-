@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina3_5" orientation="portrait" appearance="light"/>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6DW-iz-gwX">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -8,41 +8,19 @@
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <scene sceneID="t0l-4p-cDS">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Basic_1_Lecture" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
+                <viewController id="6DW-iz-gwX" customClass="ViewController" customModule="Basic_1_Lecture" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kFP-xS-Gp3">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WeatherBG_Sun" translatesAutoresizingMaskIntoConstraints="NO" id="HfO-8P-CL2">
-                                <rect key="frame" x="0.0" y="0.0" width="320" height="480"/>
-                            </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="40º" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R8c-D2-MqA">
-                                <rect key="frame" x="135" y="174.5" width="50" height="35"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="29"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                        </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstAttribute="trailing" secondItem="HfO-8P-CL2" secondAttribute="trailing" id="6Vq-pJ-qmV"/>
-                            <constraint firstItem="R8c-D2-MqA" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" multiplier="0.8" id="KHy-UW-49V"/>
-                            <constraint firstItem="HfO-8P-CL2" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Whh-MX-uGg"/>
-                            <constraint firstAttribute="bottom" secondItem="HfO-8P-CL2" secondAttribute="bottom" id="fdO-2F-6vr"/>
-                            <constraint firstItem="HfO-8P-CL2" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="goe-CR-jCh"/>
-                            <constraint firstItem="R8c-D2-MqA" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sgM-g9-ZWA"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="unT-fZ-gJW"/>
+                        <viewLayoutGuide key="safeArea" id="yNh-rW-ADd"/>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Qhc-Q6-pXU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138.40000000000001" y="136.69950738916256"/>
+            <point key="canvasLocation" x="52.173913043478265" y="132.58928571428572"/>
         </scene>
     </scenes>
-    <resources>
-        <image name="WeatherBG_Sun" width="750" height="1334"/>
-    </resources>
 </document>
