@@ -11,7 +11,7 @@ class ViewController: UIViewController {
 
     @IBOutlet private weak var totalResult: UILabel!
     private var userIsInTheMiddleOfTyping = false
-    var savedProgram : CalculateBrain.Propertylist?
+    
     @IBAction private func numberIsPressed(_ sender: UIButton) {
     let digit = sender.currentTitle!
         if userIsInTheMiddleOfTyping{
@@ -45,8 +45,11 @@ class ViewController: UIViewController {
         displayValue = brain.result
     }
     
+    var savedProgram : CalculateBrain.Propertylist?
+    
     @IBAction func save() {
         savedProgram = brain.program
+        
     }
     
     @IBAction func restore() {

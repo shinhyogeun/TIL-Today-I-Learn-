@@ -33,6 +33,7 @@ class CalculateBrain
             }
         }
     }
+    
     private func executePendingBinaryOperation()
     {
         if pending != nil {
