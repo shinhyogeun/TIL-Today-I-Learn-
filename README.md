@@ -31,7 +31,16 @@ This repository is made in order to store and review what I learned from book Cl
   }
     </code></pre>
   이해가 더 잘될거라고 생각한다.
-3. 그릇된 정보를 피해라
-4. 의미있게 구분하라
+  
+- 그릇된 정보를 피해라
+  - 정보를 의미있게 담으려고 노력해야한다. 이름에 type이 들어간다면 그건 잘못 만든 이름일 것이다. accountArray보다 accounts가 더 좋은 이름이다.
+  
+- 의미있게 구분하라
+    <pre><code>
+  getActiveAccount();
+  getActiveAcoounts();
+  getActiveAccountInfo();
+  </code></pre>
+ 
 5. 인코딩을 피해라.
 </p>
