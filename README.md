@@ -41,6 +41,9 @@ This repository is made in order to store and review what I learned from book Cl
   getActiveAcoounts();
   getActiveAccountInfo();
   </code></pre>
- 
-5. 인코딩을 피해라.
+  위의 3개의 함수 이름이 어디서 구분이 될까? 너무 알기 어려우므로 좋은 이름이 아니다.
+  
+- 인코딩을 피해라.
+ - 현대에서는 필요없어진 type까지 정보로 이름에 담으려고 하지말아라 이제는 필요 없다.
+ 타입을 강제하는 언어에서는 이름은 오로지 정보를 잘 표현하려는 수단이다. 그것에 집중하자.
 </p>
