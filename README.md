@@ -47,9 +47,7 @@ This repository is made in order to store and review what I learned from book Cl
 - **하나의 단어를 두개의 의도로 쓰지말아라.**
     - 여러 클래스에서 add라는 함수가 두가지 인자를 가지고 더해서 하나의 return값을 반환하는 함수로 많이 사용하고 있다고 하자. 갑자기 새로운 class에서 add를 이것과 다른 구조로 사용하려고 절대 하지말아라.
             다른 사람들은 add는 두가지 인자를 가지고 더해서 하나의  return값을 반환하는 것을 알고 사용한다.
-- **맥락에 맞게 사용해라.**
-    - 이것은 딱 잘라서 말하기 어렵다. 맥락에 맞게 사용하기 위해서는 대표적으로 2가지 경우가 있다. 
-        - 1. 맥락을 바꾸어 더 명확하게 해라.
+- **맥락을 바꾸어 더 명확하게 해라.**
 <pre><code>
       private void printGuessStatistics(char candidate, int count) {
       String number;
@@ -118,11 +116,8 @@ This repository is made in order to store and review what I learned from book Cl
     }
 }
 </code></pre>
-- 불필요한 맥락은 없애라
-            - 모든 class 앞에 당신이 만드는 특별한 어플리케이션의 약자를 넣을 필요가 없다. 넣어서 얻는 이점이 무엇인가? 
-              또한 class를 만들 때  상하 맥락도 잘 생각해야한다. AccountAddress와 CustomerAddress라는 class를 만들기 보다 Address class의 인스턴스로
-              만드는 것이 더 맥락에 적당하다. 
-        
+- **불필요한 맥락은 없애라.**
+    - 모든 class 앞에 당신이 만드는 특별한 어플리케이션의 약자를 넣을 필요가 없다. 넣어서 얻는 이점이 무엇인가? 또한 class를 만들 때  상하 맥락도 잘 생각해야한다. AccountAddress와 CustomerAddress라는 class를 만들기 보다 Address class의 인스턴스로 만드는 것이 더 맥락에 적당하다. 
 </p>
 
 ## 2. 함수를 잘 만들자.
