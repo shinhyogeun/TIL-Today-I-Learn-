@@ -50,31 +50,33 @@ This repository is made in order to store and review what I learned from book Cl
 - **맥락에 맞게 사용해라.**
     - 이것은 딱 잘라서 말하기 어렵다. 맥락에 맞게 사용하기 위해서는 대표적으로 2가지 경우가 있다. 
         - 1. 맥락을 바꾸어 더 명확하게 해라.
-        <pre><code>
+<pre><code>
       private void printGuessStatistics(char candidate, int count) {
       String number;
       String verb;
       String pluralModifier;
+      
       if (count==0) {
-      number = "no";
-      verb = "are";
-      pluralModifier = "s";
+            number = "no";
+            verb = "are";
+            pluralModifier = "s";
       } else if (count == 1){
-      number = "1";
-      verb = "is";
-      pluralModifier = "";
+            number = "1";
+            verb = "is";
+            pluralModifier = "";
       } else {
-      number = Integer.toString(count);
-      verb = "are";
-      pluralModifier = "s";
+            number = Integer.toString(count);
+            verb = "are";
+            pluralModifier = "s";
       }
+      
       String guessMessage = String.format (
       "There %s %s %s%s", verb, number, candidate, pluralModifier
       );
 }
-      </code></pre>
+</code></pre>
       위의 코드에서  number와 verb, pluralModifier를 보면 우리는 3가지 변수가 guessMessage에 사용된다는 것을 알 수 있다. 이를 맥락적으로 더 이해하기 쉽게 만들려면 다음처럼 GuessStatisticsMessage class를 별도로 만드는 것이 더 좋다.
-      <pre><code>
+<pre><code>
     public class GuessStatisticsMessage {
     private String number;
     private  String verb;
@@ -114,8 +116,8 @@ This repository is made in order to store and review what I learned from book Cl
         verb = "are";
         pluralModifier = "s";
     }
-    }
-    </code></pre>
+}
+</code></pre>
     
         - 불필요한 맥락은 없애라
             - 모든 class 앞에 당신이 만드는 특별한 어플리케이션의 약자를 넣을 필요가 없다. 넣어서 얻는 이점이 무엇인가? 
