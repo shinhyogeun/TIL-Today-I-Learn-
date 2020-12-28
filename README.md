@@ -75,7 +75,7 @@ This repository is made in order to store and review what I learned from book Cl
       );
 }
 </code></pre>
-      위의 코드에서  number와 verb, pluralModifier를 보면 우리는 3가지 변수가 guessMessage에 사용된다는 것을 알 수 있다. 이를 맥락적으로 더 이해하기 쉽게 만들려면 다음처럼 GuessStatisticsMessage class를 별도로 만드는 것이 더 좋다.
+위의 코드에서  number와 verb, pluralModifier를 보면 우리는 3가지 변수가 guessMessage에 사용된다는 것을 알 수 있다. 이를 맥락적으로 더 이해하기 쉽게 만들려면 다음처럼 GuessStatisticsMessage class를 별도로 만드는 것이 더 좋다.
 <pre><code>
     public class GuessStatisticsMessage {
     private String number;
@@ -118,8 +118,7 @@ This repository is made in order to store and review what I learned from book Cl
     }
 }
 </code></pre>
-    
-        - 불필요한 맥락은 없애라
+- 불필요한 맥락은 없애라
             - 모든 class 앞에 당신이 만드는 특별한 어플리케이션의 약자를 넣을 필요가 없다. 넣어서 얻는 이점이 무엇인가? 
               또한 class를 만들 때  상하 맥락도 잘 생각해야한다. AccountAddress와 CustomerAddress라는 class를 만들기 보다 Address class의 인스턴스로
               만드는 것이 더 맥락에 적당하다. 
